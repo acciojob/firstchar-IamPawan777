@@ -1,10 +1,10 @@
 function firstChar(text) {
   // your code here
-	let newText = text.trim();
-	return textnewText.charAt(0);
+	text.trim();
+	return text.charAt(0);
 }
 
 // Do not change the code below
 //Uncomment the following line to show the prompt popup
-//const text = prompt("Enter text:");
+const text = prompt("Enter text:");
 alert(firstChar(text));
